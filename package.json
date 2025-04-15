@@ -1,0 +1,31 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "server": "nodemon serverapi/server.js",
+    "client": "npm run dev --prefix clientui",
+    "start": "concurrently \" npm run server \" \" npm run client \" "
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "aws-sdk": "^2.1300.0",
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^9.1.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "email-validator": "^2.0.4",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "lodash": "^4.17.21",
+    "mongoose": "^8.9.3",
+    "morgan": "^1.10.0",
+    "nanoid": "^5.0.9",
+    "nodemon": "^3.1.9",
+    "slugify": "^1.6.6",
+    "socket.io": "^4.8.1"
+  }
+}
