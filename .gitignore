@@ -1,0 +1,3 @@
+# Ignore AWS keys file
+serverapi/config/config.js
+
