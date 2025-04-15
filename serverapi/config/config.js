@@ -1,9 +1,5 @@
 import SES from 'aws-sdk/clients/ses.js';
 
-const AWS_ACCESS_KEY_ID = 'AKIA5CBDRAOEHH2R3YQ3'
-const AWS_SECRET_KEY = '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'
-const AWS_REGION = 'eu-north-1'
-const AWS_VERSION = '2010-12-01'
 
 export const SENDER_EMAIL = "'Nexskills Store' <imadehsan4@gmail.com>";
 
