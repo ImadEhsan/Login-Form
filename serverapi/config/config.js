@@ -1,10 +1,5 @@
 import SES from 'aws-sdk/clients/ses.js';
 
-// const AWS_ACCESS_KEY_ID = 'AKIA46ZDFGESLPQCM5XF'
-// const AWS_SECRET_KEY = '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'
-// const AWS_REGION = 'us-east-1'
-// const AWS_VERSION = '2010-12-01'
-
 const AWS_ACCESS_KEY_ID = 'AKIA5CBDRAOEHH2R3YQ3'
 const AWS_SECRET_KEY = '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'
 const AWS_REGION = 'eu-north-1'
